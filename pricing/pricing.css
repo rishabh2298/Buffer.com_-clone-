@@ -1,0 +1,138 @@
+#border{
+    /* border: 1px solid; */
+}
+
+#content{
+    margin: auto;
+    width: 80%;
+    border: 1px solid red;
+}
+
+#heading{
+    margin: auto;
+    /* border: 1px solid; */
+    width: 80%;
+    margin-bottom: 20px;
+}
+#heading>h1{
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+#headpara{
+    margin: auto;
+    /* border: 1px solid; */
+    width: 55%;
+}
+#headpara>p{
+    font-size: 16px;
+    text-align: center;
+}
+
+#buttons{
+    margin: auto;
+    display: flex;
+    width: 15%;
+    margin-bottom: 20px;
+}
+#buttons>button{
+    display: block;
+    padding: 1em;
+    cursor: pointer;
+    transition: background-color 200ms ease-out 0s;
+    min-width: 94px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 5px 0px 0px 5px;
+}
+#buttons>button+button{
+    border: 2px solid rgb(31, 53, 179);
+    color: rgb(31, 53, 179);
+    background-color: rgb(233, 236, 254);
+    border-radius: 0px 5px 5px 0px;
+}
+
+#details{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-bottom: 50px;
+}
+#details>div{
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#details>div>h2{
+    font-size: 2.125rem;
+}
+#details>div>h2+p{
+    color: rgb(99, 99, 99);
+    font-size: 1rem;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 36px;
+}
+#price{
+    display: flex;
+}
+#symbol>p{
+    display: block;
+    margin-top: -1px;
+    font-size: 34px;
+}
+#amount>p{
+    display: block;
+    font-size: 60px;
+    margin-top: -5;
+    font-weight: 700;
+    text-align: left;
+}
+#month>p{
+    display: block;
+    margin-top: -1px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#imgs{
+display: flex;
+margin: auto;
+margin-bottom: 50px;
+width: 30%;
+}
+#imgs>img{
+    display: block;
+    margin: auto;
+    justify-content: center;
+    width: 35%;
+}
+#details>div>button{
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    height: 48px;
+    font-family: Roboto, sans-serif;
+    background-color: rgb(44, 75, 255);
+    color: rgb(255, 255, 255);
+    padding: 0px 24px;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+}
+#price+p{
+    font-size: 14.4px;
+}
+#bottom>p{
+font-size: 16px;
+}
+#bottom+p{
+    color: black;
+    border-bottom: 1px solid rgb(44, 75, 255);
+    padding-bottom: 4px;
+    font-size: 21px;
+}
+
