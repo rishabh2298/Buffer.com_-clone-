@@ -1,0 +1,138 @@
+:root{
+    --form_label:#3d3d3d;
+    --form_para:#636363;
+}
+html{
+    height:100%;
+}
+body{
+    height: 100%;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    display: flex;
+}
+#left_part{
+    width:65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo1{
+    margin-top:40px;
+    margin-left:-75%;
+}
+#logo1>img{
+    height:28px;
+}
+#left_part>h1{
+    font-size: 32px;
+    color: var(--form_label);
+    margin-top: 50px;
+}
+
+/* form section  */
+
+form{
+    height:380px;
+    width:465px;
+    margin-left:9%;
+    margin-bottom: 20px;
+}
+form>label{
+    color: var(--form_label);
+    line-height: 60px;
+}
+form>input{
+    width:430px;
+    border:1px solid lightgray;
+    margin-top: -20px;
+    padding:15px;
+}
+#captcha1{
+    height:70px;
+    width:65%;
+    border:1px solid lightgray;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    margin-bottom: 40px;
+}
+#captcha1>div:first-child{
+    width:150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#captcha1 input{
+    height: 25px;
+    width:25px;
+    margin-left: 10px;
+}
+#captcha1>div:last-child{
+    height:90%;
+    line-height: 0px;
+    margin:5px;
+}
+#captcha1 img{
+    margin-left:5px;
+    height:60%;
+    width:80%;
+}
+#captcha1 p{
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--form_para);
+}
+#submit{
+    width:100%;
+    background-color:#e0e0e0;
+}
+#terms{
+    display: flex;
+    justify-content: space-between;
+    height:20px;
+    font-size: 14px;
+    color:var(--form_para);
+    font-weight: 500;
+    margin-top: -3px;
+}
+#terms>p>span{
+    color:blue;
+}
+
+/* Righ section  */
+
+#right_part{
+    width:35%;
+    background-image: url("https://static.buffer.com/login/public/img/signup-bkg-publish.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#right_part>p{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: justify;
+    color:white;
+    width:310px;
+}
+#right_part>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    line-height: 0px;
+    font-weight: 400;
+}
+#right_part img{
+    height:80px;
+}
