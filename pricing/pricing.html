@@ -4,15 +4,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricing | Buffer</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <!-- fonr end -->
     <link rel="stylesheet" href="pricing.css">
 </head>
 <body>
     <div id="border">
 
+        <div id="navbar"></div>
+
         <div id="content">
 
             <div id="heading">
-                <h1>Publish Flawlessly.<br>Analyze Effortlessly. Engage Authentically.</h1>
+                <h1>Publish Flawlessly.Analyze Effortlessly. Engage Authentically.</h1>
                 <div id="headpara">
                     <p>We’ve built simpler social media tools for busy people. Enjoy our free plan as you get started, or trial our full toolkit priced to make marketing your business on social affordable.</p>
                 </div>
@@ -20,133 +30,137 @@
             
 
             <div id="buttons">
-            <button>Monthly</button>
-            <button>Yearly</button>
+            <button id="monthly">Monthly</button>
+            <button id="yearly">Yearly</button>
+            </div>
             </div>
 
             <div id="details">
-                <div id="free">
-                    <h2>Free</h2>
-                    <p>For individuals and businesses getting started with social media.</p>
-                    <div id="price">
-                        <div id="symbol">
-                            <p>$</p>
+                <div id="backcolor">
+                    <div id="free">
+                        <h2>Free</h2>
+                        <p>For individuals and businesses getting started with social media.</p>
+                        <div id="price">
+                            <div id="symbol">
+                                <p>$</p>
+                            </div>
+                            <div id="amount">
+                                <p>0</p>
+                            </div>
                         </div>
-                        <div id="amount">
-                            <p>0</p>
+                        <p>Manage up to three channels<br>Billed at $0/year</p>
+                        <button>Get started</button>
+                        <div id="bottom">
+                        <p><span style='font-size:16px;'>&#10004;</span> Basic publishing tools</p>
+                        <p><span style='font-size:16px;'>&#10004;</span> Landing page builder</p>
                         </div>
-                    </div>
-                    <p>Manage up to three channels<br>Billed at $0/year</p>
-                    <button>Get started</button>
-                    <div id="bottom">
-                    <p>Basic publishing tools</p>
-                    <p>Landing page builder</p>
-                    </div>
-                    <p>See all features</p>
-                </div>
-                <div id="essentials">
-                    <h2>Essentials</h2>
-                    <p>For professionals who use publishing, analytics & engagement tools.</p>
-                    <div id="price">
-                        <div id="symbol">
-                            <p>$</p>
-                        </div>
-                        <div id="amount">
-                            <p>5</p>
-                        </div>
-                        <div id="month">
-                            <p>/month <br> per channel</p>
-                        </div>
-                    </div>
-                    
-                    <p>Add additional channels for $5/month<br> Billed at $72 $60/year</p>
-                    <button>Try free for 14-days </button>
-                    <div id="bottom">
-                    <p>Planning & publishing tools</p>
-                    <p>Analytics tools</p>
-                    <p>Engagement tools</p>
-                    <p>Landing page builder</p> 
-                    </div>
-                    <p>See all features</p>
-                </div>
-                <div id="team">
-                    <h2>Team</h2>
-                    <p>For teams who want unlimited user seating, collaboration, and reporting.</p>
-                    <div id="price">
-                        <div id="symbol">
-                            <p>$</p>
-                        </div>
-                        <div id="amount">
-                            <p>10</p>
-                        </div>
-                        <div id="month">
-                            <p>/month <br> per channel</p>
-                        </div>
-                    </div>
-                    <p>Add additional channels for $10/month<br>Billed at $144 $120/year</p>
-                    <button>Try free for 14-days </button>
-                    <div id="bottom">
-                    <p>Essentials features, plus:</p>
-                    <p>Unlimited team members & clients</p>
-                    <p>Draft collaboration tools</p>
-                    <p>Easy, clear exportable reports</p>
-                    </div>
-                    <p>See all features</p>
-                </div>
-                <div id="agency">
-                    <h2>Agency</h2>
-                    <p>For marketing agencies with 10 or more social channels.</p>
-                    <div id="price">
-                        <div id="symbol">
-                            <p>$</p>
-                        </div>
-                        <div id="amount">
-                            <p>100</p>
-                        </div>
-                        <div id="month">
-                            <p>/month <br> for 10 channels</p>
-                        </div>
-                    </div>
-                    <p>AAdd additional channels for $10 $5/month<br> Billed at $1440 $1200/year</p>
-                    <button>Try free for 14-days </button>
-                    <div id="bottom">
-                        <p>Team features, plus:</p>
-                        <p>Custom access & permissions</p>
                         <p>See all features</p>
                     </div>
-                    <p>See all features</p>
+                    <div id="essentials">
+                        <h2>Essentials</h2>
+                        <p>For professionals who use publishing, analytics & engagement tools.</p>
+                        <div id="price">
+                            <div id="symbol">
+                                <p>$</p>
+                            </div>
+                            <div id="amount">
+                                <p id="p1">5</p>
+                            </div>
+                            <div id="month">
+                                <p>/month <br> per channel</p>
+                            </div>
+                        </div>
+                        
+                        <p id="t1">Add additional channels for $5/month<br> Billed at $72 $60/year</p>
+                        <button>Try free for 14-days </button>
+                        <div id="bottom">
+                        <p><span style='font-size:16px;'>&#10004;</span> Planning & publishing tools</p>
+                        <p><span style='font-size:16px;'>&#10004;</span> Analytics tools</p>
+                        <p><span style='font-size:16px;'>&#10004;</span> Engagement tools</p>
+                        <p><span style='font-size:16px;'>&#10004;</span> Landing page builder</p> 
+                        </div>
+                        <p>See all features</p>
+                    </div>
+                    <div id="team">
+                        <h2>Team</h2>
+                        <p>For teams who want unlimited user seating, collaboration, and reporting.</p>
+                        <div id="price">
+                            <div id="symbol">
+                                <p>$</p>
+                            </div>
+                            <div id="amount">
+                                <p id="p2">10</p>
+                            </div>
+                            <div id="month">
+                                <p>/month <br> per channel</p>
+                            </div>
+                        </div>
+                        <p id="t2">Add additional channels for $10/month<br>Billed at $144 $120/year</p>
+                        <button>Try free for 14-days </button>
+                        <div id="bottom">
+                        <p><span style='font-size:16px;'>&#10004;</span> Essentials features, plus:</p>
+                        <p><span style='font-size:16px;'>&#10004;</span> Unlimited team members & clients</p>
+                        <p><span style='font-size:16px;'>&#10004;</span> Draft collaboration tools</p>
+                        <p><span style='font-size:16px;'>&#10004;</span> Easy, clear exportable reports</p>
+                        </div>
+                        <p>See all features</p>
+                    </div>
+                    <div id="agency">
+                        <h2>Agency</h2>
+                        <p>For marketing agencies with 10 or more social channels.</p>
+                        <div id="price">
+                            <div id="symbol">
+                                <p>$</p>
+                            </div>
+                            <div id="amount">
+                                <p id="p3">100</p>
+                            </div>
+                            <div id="month">
+                                <p>/month <br> for 10 channels</p>
+                            </div>
+                        </div>
+                        <p id="t3">Add additional channels for $10 $5/month<br> Billed at $1440 $1200/year</p>
+                        <button>Try free for 14-days </button>
+                        <div id="bottom">
+                            <p><span style='font-size:16px;'>&#10004;</span> Team features, plus:</p>
+                            <p><span style='font-size:16px;'>&#10004;</span> Custom access & permissions</p>
+                            <p><span style='font-size:16px;'>&#10004;</span> Agency-friendly pricing</p>
+                        </div>
+                        <p>See all features</p>
+                    </div>
                 </div>
-            </div>
-
-            <div id="imgs">
+                
+        </div>
+        <div id="content2">
+             <div id="imgs">
                 <img src="https://static.buffer.com/cdn-cgi/image/w=96,quality=90,format=auto/marketing/static/ui/meta-business-partner@2x-2.png" alt="meta-business-partner">
                 <img src="https://static.buffer.com/cdn-cgi/image/w=256,quality=90,format=auto/marketing/static/ui/pinterest-marketing-partner@2x-2.png" alt="pinterest-marketing-partner">
                 <img src="https://static.buffer.com/cdn-cgi/image/w=256,quality=90,format=auto/marketing/static/ui/linkedin-marketing-partner@2x-2.png" alt="linkedin-marketing-partner">
             </div>
 
             <div id="tablehead">
-                <h1>Compare our plans side-by-side</h1>
+                <h2>Compare our plans side-by-side</h2>
             </div>
 
             <div id="table1">
                 <table>
                     <thead>
                         <tr>
-                            <th>Basics</th>
-                            <th>Free
+                            <th id="basics">Basics</th>
+                            <th><h4>Free</h4>
                                 <p>$0 per channel</p>
                                 <button>Get started</button>
                             </th>
-                            <th>Essentials
+                            <th><h4>Essentials</h4>
                                 <p>$5/mo per channel</p>
                                 <button>Try free for 14-days</button>
                             </th>
 
-                            <th>Team
+                            <th><h4>Team</h4>
                                 <p>$10/mo per channel</p>
                                 <button>Try free for 14-days</button>
                             </th>
-                            <th>Agency
+                            <th><h4>Agency</h4>
                                 <p>$100/mo for 10 channels</p>
                                 <button>Try free for 14-days</button>
                             </th>
@@ -154,7 +168,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                                <td>Monthly Price</td>
+                                <td> <h4>Monthly Price</h4> </td>
                                 <td>Always $0</td>
                                 <td>Starts at $5/mo</td>
                                 <td>Starts at $10/mo</td>
@@ -163,7 +177,7 @@
                                 
                         </tr>
                         <tr>
-                                <td>Channels
+                                <td><h4>Channels</h4>
                                     <p>Example: 2 Twitter <br> profiles, 2 Facebook <br> pages, and 2 Start Pages<br> counts as 6 channels.</p>
                                 </td>
                                 <td>Up to 3</td>
@@ -173,7 +187,7 @@
                                 
                         </tr>     
                         <tr>
-                                <td>Scheduled Posts Per Channel
+                                <td><h4>Scheduled Posts Per Channel</h4>
                                     <p>The number of posts you<br> can store in your queue<br> (per channel). There is<br> no monthly, or yearly<br> limit.</p>
                                 </td>
                                 <td>10 per channel</td>
@@ -183,7 +197,7 @@
                                 
                         </tr> 
                         <tr>
-                                <td>Included Users
+                                <td><h4>Included Users</h4>
                                     <p>The number of users<br> who can access and<br> contribute content to<br> your Buffer account.</p>
                                 </td>
                                 <td>1</td>
@@ -193,11 +207,11 @@
                                 
                         </tr>
                         <tr>
-                                <td>Invite Additional Users
+                                <td><h4>Invite Additional Users</h4>
                                     <p>Invite Additional Team <br>members or clients to<br> collaborate with you</p>
                                 </td>
-                                <td><span style='font-size:16px;'>&#10006;</span></td>
-                                <td><span style='font-size:16px;'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
                                 <td>Unlimited</td>
                                 <td>Unlimited</td>
                                 
@@ -211,7 +225,7 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>Channels</th>
+                            <th id="basics">Channels</th>
                             <th>Free</th>
                             <th>Essentials</th>
 
@@ -221,7 +235,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                                <td>Instagram
+                                <td><h4>Instagram</h4>
                                     <p>Business profiles required.</p>
                                 </td>
                                 <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -231,7 +245,7 @@
                                 
                         </tr>
                         <tr>
-                                <td>TikTok
+                                <td><h4>TikTok</h4>
                                     <p>Business profiles required.</p>
                                 </td>
                                 <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -241,7 +255,7 @@
                                 
                         </tr>     
                         <tr>
-                                <td>Facebook
+                                <td><h4>Facebook</h4>
                                     <p>Pages and Groups.</p>
                                 </td>
                                 <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -251,7 +265,7 @@
                                 
                         </tr> 
                         <tr>
-                                <td>Twitter
+                                <td><h4>Twitter</h4>
                                     <p>Profiles.</p>
                                 </td>
                                 <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -261,7 +275,7 @@
                                 
                         </tr>
                         <tr>
-                                <td>LinkedIn
+                                <td><h4>LinkedIn</h4>
                                     <p>Profiles and pages.</p>
                                 </td>
                                 <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -271,7 +285,7 @@
                                 
                         </tr> 
                         <tr>
-                            <td>Google
+                            <td><h4>Google</h4>
                                 <p>Business Profiles</p>
                             </td>
                             <td>Coming Soon</td>
@@ -281,7 +295,7 @@
                             
                         </tr> 
                         <tr>
-                            <td>Pinterest
+                            <td><h4>Pinterest</h4>
                                 <p>Boards.</p>
                             </td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -291,7 +305,7 @@
 
                         </tr> 
                         <tr>
-                            <td>Start Page
+                            <td><h4>Start Page</h4>
                                 <p>A landing page for your<br> brand where you can <br>showcase the things <br> that matter</p>
                             </td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -301,10 +315,10 @@
                             
                         </tr> 
                         <tr>
-                            <td>Shop Grid
+                            <td><h4>Shop Grid</h4>
                                 <p>A page that looks like <br> your Instagram feed to <br> help your Instagram <br> audience buy your <br> products.</p>
                             </td>
-                            <td><span style='font-size:16px;'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -318,7 +332,7 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>Planning and Scheduling</th>
+                            <th id="basics">Planning and Scheduling</th>
                             <th>Free</th>
                             <th>Essentials</th>
 
@@ -328,7 +342,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                                <td>Post Scheduling
+                                <td><h4>Post Scheduling</h4>
                                     <p>Create posts and <br> schedule their release <br> for each social network.</p>
                                 </td>
                                 <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -338,7 +352,7 @@
                                 
                         </tr>
                         <tr>
-                                <td>Set Posting Schedule
+                                <td><h4>Set Posting Schedule</h4>
                                     <p>Set time slots <br> throughout each week <br> for your content to be <br> released.</p>
                                 </td>
                                 <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -348,8 +362,8 @@
                                 
                         </tr>     
                         <tr>
-                                <td>Drafts
-                                    <p>Save your content for <br> later on mobile or <b></b> desktop.</p>
+                                <td><h4>Drafts</h4>
+                                    <p>Save your content for <br> later on mobile or <br> desktop.</p>
                                 </td>
                                 <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                                 <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -358,7 +372,7 @@
                                 
                         </tr> 
                         <tr>
-                                <td>Tailored Posts for Each Channel
+                                <td><h4>Tailored Posts for Each Channel</h4>
                                     <p>Seamlessly iterate on <br> content to customize <br> posts for each channel.</p>
                                 </td>
                                 <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -368,7 +382,7 @@
                                 
                         </tr>
                         <tr>
-                                <td>Calendar View
+                                <td><h4>Calendar View</h4>
                                     <p>View your content <br> across all channels by <br> week or month.</p>
                                 </td>
                                 <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -378,7 +392,7 @@
                                 
                         </tr> 
                         <tr>
-                            <td>Instagram Reels and Carousels
+                            <td><h4>Instagram Reels and Carousels</h4>
                                 <p>​​Post, draft, and schedule <br> Reels and Carousels on <br> Instagram</p>
                             </td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -388,7 +402,7 @@
                             
                         </tr> 
                         <tr>
-                            <td>buff.ly link shortener
+                            <td><h4>buff.ly link shortener</h4>
                                 <p>Links automatically <br> shortened to buff.ly links</p>
                             </td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -398,104 +412,104 @@
 
                         </tr> 
                         <tr>
-                            <td>bit.ly link shortener
+                            <td><h4>bit.ly link shortener</h4>
                                 <p>Links automatically <br> shortened to bit.ly links</p>
                             </td>
-                            <td><span style='font-size:16px;'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             
                         </tr> 
                         <tr>
-                            <td>Custom Link Shortener
+                            <td><h4>Custom Link Shortener</h4>
                                 <p>Links automatically <br> shortened to your own <br> custom link (if registered <br> with Bit.ly)</p>
                             </td>
-                            <td><span style='font-size:16px;'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             
                         </tr>
                         <tr>
-                            <td>Custom Video Thumbnails
+                            <td><h4>Custom Video Thumbnails</h4>
                                 <p>Choose a custom <br> thumbnail and title for <br> your videos.</p>
                             </td>
-                            <td><span style='font-size:16px;'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
     
                         </tr>
                         <tr>
-                            <td>Multi-Channel Campaigns
+                            <td><h4>Multi-Channel Campaigns</h4>
                                 <p>Organize your content <br/> into campaigns to track <br> related posts and <br> optimize your mix.</p>
                             </td>
-                            <td><span style='font-size:16px;'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
     
                         </tr> 
                         <tr>
-                            <td>Instagram First Comment
+                            <td><h4>Instagram First Comment</h4>
                                 <p>Schedule the first  <br>  comment after your  <br>  post. Include hashtags <br> and/or other <br> information.</p>
                             </td>
-                            <td><span style='font-size:16px;'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
     
                         </tr> 
                         <tr>
-                            <td>Instagram Tagging
+                            <td><h4>Instagram Tagging</h4>
                                 <p>Add your location and <br> user tags in Buffer rather <br> than manually after the <br> post is published.</p>
                             </td>
-                            <td><span style='font-size:16px;'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
     
                         </tr>
                         <tr>
-                            <td>Instagram Tagging
+                            <td><h4>Instagram Tagging</h4>
                                 <p>Add your location and <br> user tags in Buffer rather <br> than manually after the <br> post is published.</p>
                             </td>
-                            <td><span style='font-size:16px;'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
     
                         </tr>
                         <tr>
-                            <td>Instagram Hashtag Manager
+                            <td><h4>Instagram Hashtag Manager</h4>
                                 <p>​​Create, save, reuse, and <br> optimize groups of <br> hashtags for your <br> Instagram first <br> comments.</p>
                             </td>
-                            <td><span style='font-size:16px;'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                         </tr> 
                         <tr>
-                            <td>Instagram Hashtag Manager
+                            <td><h4>Instagram Hashtag Manager</h4>
                                 <p>​​Create, save, reuse, and <br> optimize groups of <br> hashtags for your <br> Instagram first <br> comments.</p>
                             </td>
-                            <td><span style='font-size:16px;'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                         </tr>
                         <tr>
-                            <td>Instagram Stories Scheduling
+                            <td><h4>Instagram Stories Scheduling</h4>
                                 <p>​Prepare and schedule<br>your Stories on web or<br>mobile.</p>
                             </td>
-                            <td><span style='font-size:16px;'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                         </tr>
                         <tr>
-                            <td>Twitter Hashtag Suggestions
+                            <td><h4>Twitter Hashtag Suggestions</h4>
                                 <p>Select from Twitter <br> hashtag suggestions as <br> you type</p>
                             </td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -504,7 +518,7 @@
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                         </tr>
                         <tr>
-                            <td>Facebook Page Mentions
+                            <td><h4>Facebook Page Mentions</h4>
                                 <p>Tag other Facebook <br> Pages in your posts</p>
                             </td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -513,7 +527,7 @@
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                         </tr>
                         <tr>
-                            <td>Twitter Mentions
+                            <td><h4>Twitter Mentions</h4>
                                 <p>Tag other Twitter <br> profiles in your posts</p>
                             </td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
@@ -522,16 +536,16 @@
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                         </tr>
                         <tr>
-                            <td>Shuffle Queue
+                            <td><h4>Shuffle Queue</h4>
                                 <p>Shuffle the order of the<br> posts in your queue</p>
                             </td>
-                            <td><span style='font-size:16px;'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                             <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
                         </tr>
                         <tr>
-                            <td>Google Business Profiles
+                            <td><h4>Google Business Profiles</h4>
                                 <p>Publish posts, offers,<br> and events to your <br>Google Business Profile.</p>
                             </td>
                             <td>Coming Soon</td>
@@ -540,7 +554,7 @@
                             <td>Coming Soon</td>
                         </tr>
                         <tr>
-                            <td>Twitter Threads
+                            <td><h4>Twitter Threads</h4>
                                 <p>Draft and schedule<br> threads on Twitter.</p>
                             </td>
                             <td>Coming Soon</td>
@@ -552,10 +566,462 @@
                 </table>
             </div>
 
+            <div id="table4">
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="basics">Analytics, Insights & Reporting</th>
+                            <th>Free</th>
+                            <th>Essentials</th>
+
+                            <th>Team</th>
+                            <th>Agency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                                <td><h4>Performance Overview</h4>
+                                    <p>See an overview of key<br> See an overview of key<br> engagements and <br> new followers, etc).</p>
+                                </td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>
+                        <tr>
+                                <td><h4>Individual Post Analytics</h4>
+                                    <p>See a history of all of<br> your published posts, <br>iterate, and evolve.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>     
+                        <tr>
+                                <td><h4>Historical Data Access</h4>
+                                    <p>Backfill data from the <br> past 6 months for all <br>channels except Twitter<br>(28-day limit).</p>
+                                </td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr> 
+                        <tr>
+                                <td><h4>Data Storage</h4>
+                                    <p>Store, analyze, and<br> export up to two years of<br> data.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>
+                        <tr>
+                                <td><h4>Campaign Analysis</h4>
+                                    <p>Automate reports from <br> multi-channel <br> campaigns. No manual <br>switching between <br> channels.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr> 
+                        <tr>
+                            <td><h4>Boosted Post Insights</h4>
+                                <p>Analyze your boosted <br> posts and compare with <br> your organic results to <br>optimize your ad spend.</p>
+                            </td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            
+                        </tr> 
+                        <tr>
+                            <td><h4>Hashtag Performance</h4>
+                                <p>Get insight into how your<br>hashtags could be <br>affecting your reach and <br> engagement rates. </p>
+                            </td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+
+                        </tr> 
+                        <tr>
+                            <td><h4>Audience Demographics</h4>
+                                <p>Age, gender, and<br>location.</p>
+                            </td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            
+                        </tr> 
+                        <tr>
+                            <td><h4>Machine Learning Insights</h4>
+                                <p>Get suggestions for<br>what, when, and how <br> often to post to <br>maximize your results.</p>
+                            </td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><h4>Instagram Stories Analytics</h4>
+                                <p>View completion rates<br> and key metrics over<br>time.</p>
+                            </td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+    
+                        </tr>
+                        <tr>
+                            <td><h4>Shopify Performance</h4>
+                                <p>See your sales, top<br/> referrals, and top <br>products alongside your <br> social media data.</p>
+                            </td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+    
+                        </tr> 
+                        <tr>
+                            <td><h4>Custom Reports</h4>
+                                <p>White-labeled and<br> annotated for easy<br>analysis.</p>
+                            </td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+    
+                        </tr> 
+                        <tr>
+                            <td><h4>Exportable Reports</h4>
+                                <p>Available as a PDF,<br>image, or CSV</p>
+                            </td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+    
+                        </tr>
+                        <tr>
+                            <td><h4>Branded Reports</h4>
+                                <p>Add a custom logo to<br> each of your reports.</p>
+                            </td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+    
+                        </tr>
+                        <tr>
+                            <td><h4>Cover Page</h4>
+                                <p>Get an automatically<br> generated cover page  <br> when you download your<br>report as a PDF.</p>
+                            </td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                        </tr> 
+                        
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="table5">
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="basics">Engagement</th>
+                            <th>Free</th>
+                            <th>Essentials</th>
+                            <th>Team</th>
+                            <th>Agency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                                <td><h4>Grid view</h4>
+                                    <p>See which posts have<br>unanswered comments<br>and quickly jump in.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>
+                        <tr>
+                                <td><h4>Important Comment Detection</h4>
+                                    <p>Machine-learning-<br>powered alerts highlight<br>open questions & <br>comments on sales or <br>unhappiness.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>     
+                        <tr>
+                                <td><h4>Hotkeys</h4>
+                                    <p>Get through comments<br>quickly without taking<br>your hands off the<br>keyboard.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr> 
+                        <tr>
+                                <td><h4>Easy Account Switching</h4>
+                                    <p>Seamlessly switch<br>between multiple<br>accounts and channels.<br>No more logging in and out.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="table6">
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="basics">Team Management</th>
+                            <th>Free</th>
+                            <th>Essentials</th>
+                            <th>Team</th>
+                            <th>Agency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                                <td><h4>Invite Additional Users</h4>
+                                    <p>All users will be able <br> to create and share draft <br> posts. Define who needs <br> approval to post.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>
+                        <tr>
+                                <td><h4>Draft Post Management</h4>
+                                    <p>Account owners can set <br> post drafting, approval, <br> and full posting access <br> across users.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>     
+                        <tr>
+                                <td><h4>Custom Access & Permissions</h4>
+                                    <p>Manage which channels <br> each user is invited to <br> and their post-approval <br> status.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr> 
+                        <tr>
+                                <td><h4>Approval Workflow Tools</h4>
+                                    <p>Manage who can draft <br> and approve posts <br> across your team.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="table7">
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="basics">Integrations and Apps</th>
+                            <th>Free</th>
+                            <th>Essentials</th>
+                            <th>Team</th>
+                            <th>Agency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                                <td><h4>Browser Extension</h4>
+                                    <p>Open the composer on <b></b> any web page and add <br> posts directly to your queue.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>
+                        <tr>
+                                <td><h4>Content-in Integrations</h4>
+                                    <p>Use Canva, OneDrive, <br> Google Drive and <br> Dropbox to upload, <br> manage, and edit your <br> media assets</p>
+                                </td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>     
+                        <tr>
+                                <td><h4>iOS and Android Apps</h4>
+                                    <p>Publish is available on <br> iOS and Android.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr> 
+                        <tr>
+                                <td><h4>30+ Third-Party Integrations</h4>
+                                    <p>Use Buffer with your <br> favorite apps like Zapier, <br> IFTTT, Quuu, Pocket, <br> Feedly, and more.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>
+                        <tr>
+                            <td><h4>Two Factor Authentication</h4>
+                                <p>Two-factor <br> authentication codes <br> can be generated via <br> SMS or Google <br> Authenticator (available <br> on iOS and Android).</p>
+                            </td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><h4>Google Analytics integration</h4>
+                                <p>Find in-depth insights on <br> your posts and <br> campaigns in Google <br> Analytics</p>
+                            </td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><h4>Custom UTM parameters</h4>
+                                <p>Track the effectiveness <br> of your posts and <br> campaigns using <br> custom UTM parameters</p>
+                            </td>
+                            <td><span style='font-size:16px;color: rgb(99, 99, 99);'>&#10006;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                            
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div id="table8">
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="basics">Support & Community</th>
+                            <th>Free</th>
+                            <th>Essentials</th>
+                            <th>Team</th>
+                            <th>Agency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                                <td><h4>Self-Service Knowledge Base</h4>
+                                    <p>Access to our FAQ where <br> you’ll find how-to guides, <br> most popular questions, <br> and video tutorials.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>
+                        <tr>
+                                <td><h4>Social Media Support</h4>
+                                    <p>Fast support on Social <br> Media via Twitter and <br> Facebook.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr>     
+                        <tr>
+                                <td><h4>Email Support</h4>
+                                    <p>Fast and helpful support <br> via email — a whole <br> team of people cheering <br> for you.</p>
+                                </td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                <td><span style='font-size:16px;color: blue;'>&#10004;</span></td>
+                                
+                        </tr> 
+                                           
+                    </tbody>
+                </table>
+            </div>
+
+           
+
+
+
+
+        </div>
+   
+        <div id="last">
+            <div>
+                <h2>
+                    140,000+ people like you use Buffer to <br> build their brand on social media <br> every month
+                </h2>
+            </div>
+            
+            <button>
+                Get started
+            </button>
+            <div id="tick">
+                <div>
+                    <img src="https://buffer.com/static/icons/check-mark-gray.svg" alt="">
+                    <p> No credit card required</p>
+               </div>
+               <div>
+                    <img src="https://buffer.com/static/icons/check-mark-gray.svg" alt="">
+                    <p>14-day free trial</p>
+               </div>
+               <div>               
+                   <img src="https://buffer.com/static/icons/check-mark-gray.svg" alt="">
+                   <p>Cancel anytime</p>
+               </div>
+            </div>
+            
         </div>
 
+        <div id="footer"></div>
+
     </div>
+
+</div>
 
  
 </body>
 </html>
+
+<script src="pricing.js"></script>
