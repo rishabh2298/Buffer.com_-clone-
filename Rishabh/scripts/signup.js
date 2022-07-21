@@ -1,8 +1,8 @@
-import { left_part,signup_code } from "../components/page_content.js";
+import { signup_part,signup_code } from "../components/page_content.js";
 
 
 let left = document.querySelector("#left_part")
-left.innerHTML = left_part();
+left.innerHTML = signup_part();
 
 let form = document.querySelector("form")
 
