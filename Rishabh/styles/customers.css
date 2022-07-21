@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+#main{
+    border:1px solid black;
+    width:850px;
+    text-align: center;
+    margin:120px auto;
+}
+#main>p:nth-child(1){
+    color:#2c4bff;
+    font-weight: 700;
+    margin-bottom:25px ;
+}
+#main>p:nth-child(2){
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom:30px ;
+}
+#main>p:nth-child(3){
+    font-weight:400;
+    margin-bottom:60px ;
+}
+
+/* Box - 1  */
+
+#box-1{
+    border:5px solid ;
+    border-color: #6f84ff #65b9ff #6a9fff #7856ff;
+    margin-top:50px;
+}
+.no-1>img{
+    height:30px;
+    margin:60px 0 40px 0;
+}
+.no-1>p:nth-child(2){
+    color:#3d3d3d;
+    width:70%;
+    font-size:24px;
+    font-weight:400;
+    line-height: 43px;
+    margin:auto;
+}
+.no-1>p:nth-child(3){
+    color:#2c4bff;
+    font-weight:400;
+    margin:20px 0 35px 0;
+}
+p>i{
+    color:#2c4bff;
+    font-size:15px;
+    width:25px;
+}
+.no-1>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:160px;
+    color:#9b9b9b;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+/* box-2 */
+#box-2{
+    border:5px solid ;
+    border-color: #f76234 #ff702c #e74348 #e0364f;
+    margin-top:20px;
+}
+
+/* box-3  */
+#box-3>img{
+    height:45px;
+}
+#box-3{
+    border:5px solid ;
+    border-color: #fdae4c #fce76a #fdb34e #ff702c;
+    margin-top:20px;
+}
+
+/* box-4  */
+#box-4{
+    border:5px solid ;
+    border-color: #6d5aff #6d5aff #755bff #2d4bff;
+    margin-top:20px;
+}
+
+/* box - 5 */
+#box-5>img{
+    height:55px;
+}
+#box-5{
+    border:5px solid ;
+    border-color: #f66036  #ff702d  #ed4f40  #e0364f;
+    margin-top:20px;
+}
+
+/* box - 6 */
+#box-6>img{
+    height:65px;
+}
+#box-6{
+    border:5px solid ;
+    border-color: #43d6db  #99e9ec  #18cdd4  #00c8cf;
+    margin-top:20px;
+}
+
+/* box-7 */
+#box-7>img{
+    height: 65px;
+}
+#box-7{
+    border:5px solid ;
+    border-color: #7857ff  #717cff #65b8ff #6b99ff;
+    margin-top:20px;
+}
+
+/* box-8 */
+#box-8>p:nth-child(2){
+    width:75%;
+}
+#box-8>img{
+    height: 65px;
+}
+#box-8{
+    border:5px solid ;
+    border-color: #fdae4c #fce76a #fdb34e #ff702c;
+    margin-top:20px;
+}
+#box-9>p:nth-child(2){
+    width:75%;
+}
+#box-9>img{
+    height: 45px;
+}
+#box-9{
+    border:5px solid ;
+    border-color: #43d6db  #99e9ec  #18cdd4  #00c8cf;
+    margin-top:20px;
+}
