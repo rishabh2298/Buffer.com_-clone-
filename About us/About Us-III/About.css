@@ -55,6 +55,11 @@ a {
   width: 100%;
   /* position: relative; */
 }
+#imageBox img:hover{
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.5);
+}
 .imgbox {
   width: 100%;
   background-color: #d9dfdf8a;
@@ -286,3 +291,6 @@ font-size: 50px;
   margin-bottom: 30px;
 }
 /* ------------End------------------- */
+#footer{
+  margin-top: 150px;
+}
