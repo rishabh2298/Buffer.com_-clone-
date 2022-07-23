@@ -62,7 +62,7 @@
           <form class="d-flex" role="search">
             <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
           <a href="../Rishabh/login.html">Log In</a>
-          <button type="button" class="btn btn-primary"><a href="../Rishabh/signup.html">Get Started Now</a></button>
+          <button type="button" class="btn btn-primary"><a class="signup" href="../Rishabh/signup.html">Get Started Now</a ></button>
           </form>
         </div>
       </div>
