@@ -237,6 +237,8 @@ font-size: 50px;
   transform: scale(1.1);
 }
 
+/*-------------- Bottom---------- */
+
 #Button3{
   width: 30%;
   font-size: 21px;
@@ -283,3 +285,4 @@ font-size: 50px;
 #tick{
   margin-bottom: 30px;
 }
+/* ------------End------------------- */
