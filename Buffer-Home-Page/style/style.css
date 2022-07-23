@@ -349,11 +349,11 @@ h1.h1s{
     /* slider */
 
     #col-1{
-        background-color: red;
+        /* background-color: red; */
         height: 200px;
     }
     #col-2{
-        background-color: rgb(82, 91, 101);
+        /* background-color: rgb(82, 91, 101); */
         height: 50px;
     }
     img#alt1 {
@@ -381,3 +381,156 @@ text-align: center;
         background-color: blue;
         height: 400px
     }
+
+    img.rounded {
+        width: 100px;
+        height: 100px;
+        /* border-radius: 50em; */
+    }
+    .card {
+        text-align: center;
+    }
+
+    #col-1 {
+        margin: 50px;
+        height: 300px;
+        text-align: center;
+    }
+        
+        
+       
+        #col-2{
+            /* background-color: rgb(82, 91, 101); */
+            height: 200px;
+            text-align: center;
+        }
+    
+        #col-3{
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;        margin: 10px;
+        }
+        img#alt1 {
+            width: 80px;
+            height: 40px;
+            margin: auto;
+        }
+        img#alt2{
+            width: 110px;
+            height: 40px;
+           
+        }
+        img#alt3{
+            width: 150px;
+            height: 40px;
+           
+        }
+        #partner{
+    text-align: center;
+        }
+    
+        #last{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: blue;
+            height: 400px
+        } 
+        img.col-4 {
+            border-radius: 50px;
+            /* margin-bottom: -50px; */
+        }
+        div#col-5 {
+            /* margin: 20px; */
+            margin-top: -40px;
+        }
+    
+        h4.\31 0years {
+            color: blue;
+            font-size: 50px;
+            font-weight: 700;
+        }
+        h1.like {
+            font-size: 36px;
+            width: 100%;
+            color: white;
+            margin-top: 80px;
+            margin-left: -20px;
+        }
+    
+        button.btn.btn-danger {
+            padding: 22px;
+            margin-right: 50px;
+        }
+    
+        #fxHEmZ {
+            height: 100%;
+            width: 20%;
+            background-image: url(/static/background/triangle-green.svg), url(/static/background/planet@2x.png), url(/static/background/circle-pink.svg);
+            background-repeat: no-repeat;
+            background-size: 40px, 180px, 60px;
+            background-position: 120px 75px, -55px 160px, 88px 105%;
+            position: absolute;
+            top: 0px;
+        }
+        h4 {
+            /* margin: 20px; */
+            margin-bottom: 40px;
+        }
+        .row.justify-content-md-center {
+            /* margin: 30px; */
+            margin-bottom: 50px;
+        }
+    
+        #col-1,#col-1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+        }
+    
+        @media screen and (min-width:70px) and (max-width:480px){
+            
+            #col-1,#col-1{
+                grid-template-columns: repeat(2,1fr);
+                gap: 50px;
+                height: 600px;
+                    }
+                    #col-1 {
+                        margin: 50px;
+                        height: 600px;
+                        text-align: center;
+                    }
+                    #col-2 {
+                        margin: 50px;
+                        height: 600px;
+                        text-align: center;
+                    }
+        }
+        @media screen and (min-width:70px) and (max-width:768px){
+            
+            #col-1,#col-1{
+                grid-template-columns: repeat(2,1fr);
+                gap: 50px;
+                height: 600px;
+                    }
+                    #col-1 {
+                        margin: 50px;
+                        height: 600px;
+                        text-align: center;
+                    }
+                    #col-2 {
+                        margin: 50px;
+                        height: 600px;
+                        text-align: center;
+                    }
+        }
+
+       
+        h1.cool {
+            color: white!important;
+            /* margin: 30px; */
+            margin-top: 100px;
+            margin-bottom: 20px;
+        }
+
+        a.signup {
+            color: white!important;
+            padding: 20px;
+        }
