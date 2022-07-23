@@ -22,7 +22,7 @@
   line-height: 1.5em;
   position: absolute;
   left: 25%;
-  top: 10%;
+  top: 30%;
   line-height: 1.5em;
   font-size: 18px;
 }
@@ -167,13 +167,13 @@ a{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
-  #container{
+  #container1{
     width: 100%;
     background-color: rgb(44, 75, 255);
     height: 370px;
     /* height: auto; */
   }
-  #container img{
+  #container1 img{
     width: 150px;
   }
   .cont{
@@ -186,3 +186,6 @@ a{
   #tick{
     margin-bottom: 30px;
   }
+#container{
+  margin-bottom: 100px;
+}
