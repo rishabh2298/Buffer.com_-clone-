@@ -1,3 +1,10 @@
+import navbar from "../Buffer-h-n-p/components/navbar.js"
+document.getElementById('navbar').innerHTML = navbar()
+
+import footer from "../Buffer-h-n-p/components/footer.js"
+document.getElementById('footer').innerHTML = footer()
+
+
 
 let container = document.getElementById('p1')
 let text = document.getElementById('t1')
