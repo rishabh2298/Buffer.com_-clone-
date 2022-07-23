@@ -76,7 +76,7 @@ let footer=()=>{
   ></a>
 <!-- Github -->
 <h6 class="mb-4 font-weight-bold">
-  Dawnload
+  Download
 </h6>
 <div class="flex social-btns">
   <a class="app-btn blu flex vert" href="http:apple.com">

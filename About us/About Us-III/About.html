@@ -312,6 +312,15 @@
 </html>
 
 <script>
+
+
+import navbar from "../Buffer-h-n-p/components/navbar.js"
+  document.getElementById('navbar').innerHTML = navbar()
+  
+  import footer from "../Buffer-h-n-p/components/footer.js"
+  document.getElementById('footer').innerHTML = footer()
+  
+
   const accordian = document.getElementsByClassName("contentBox");
 
   for (i = 0; i < accordian.length; i++) {

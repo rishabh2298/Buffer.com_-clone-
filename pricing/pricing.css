@@ -164,6 +164,14 @@ font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
 #table1{
     /* border: 1px solid; */
     display: flex;
