@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #main{
-    border:1px solid black;
+    /* border:1px solid black; */
     width:850px;
     text-align: center;
     margin:120px auto;

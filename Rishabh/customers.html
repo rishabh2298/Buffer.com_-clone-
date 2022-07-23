@@ -4,7 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- navbar -->
+    <script src="https://kit.fontawesome.com/fc9008eadf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <!-- navbar end -->
     <title>Customers Page</title>
+     <!-- bootstrap -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- bootstrap getElementById -->
+     <link rel="stylesheet" href="../Buffer-h-n-p/style/style.css">
     <link rel="stylesheet" href="./styles/customers.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
@@ -126,3 +137,13 @@
     </div>
 </body>
 </html>
+
+<script type="module">
+
+    import navbar from "../Buffer-h-n-p/components/navbar.js"
+    document.getElementById('navbar').innerHTML = navbar()
+    
+    import footer from "../Buffer-h-n-p/components/footer.js"
+    document.getElementById('footer').innerHTML = footer()
+    
+    </script>
