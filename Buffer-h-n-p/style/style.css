@@ -1,0 +1,383 @@
+
+ /* Header */
+ .logo {
+    width: 20px;
+}
+
+.d-flex {
+    display: flex!important;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+ul.dropdown-menu.show {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;}
+
+a {
+    color: var(--bs-link-color);
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none!important;
+}
+a.nav-link.dropdown {
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+}
+#nav-a {
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+}
+#nav-a {
+    margin-left: 120px;
+    gap: 20px;
+    color: black;
+   
+}
+button.btn.btn-primary {
+    font-size: 17px;
+    border: none;
+    font-weight: 400;
+    
+}
+button.btn.btn-light {
+    
+    margin: 8px;
+}
+a.dropdown-item {
+    display: flex;
+    
+}
+a.navbar-brand {
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 11%;
+}
+#nav-a :hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+i.fa-solid.fa-layer-group {
+    font-size: 20px;
+    margin-right: 3px;
+}
+p.Publishing {
+    margin: 0px 19px 0px 35px;
+    font-size: 14px;
+    font-size: 14px;
+    width: 100%;
+
+   
+}
+ul.dropdown-menu.show {
+    width: 21vw;
+    border: none;
+}
+
+.col-xl-3 {
+    flex: 0 0 auto;
+    width: 20%!important;
+}
+
+
+
+
+/* Footer */
+
+footer.text-center.text-lg-start.text-white {
+    background-color: none;
+    background-color: white!important;
+    font-size: 16px;
+    font-weight: 400;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+    font-weight: 700;
+}
+
+.span {
+    border: none;
+    border-radius: 20px;
+    background-color: #a8b9f4;
+}
+
+@media (min-width: 600px){
+    #follow { width: 30%;
+
+    }
+}
+
+.contant {
+    height: 500px;
+    border: solid 2px red;
+}
+
+h4#logo-i {
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.flex.social-btns {
+    /* border-radius: 20px; */
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+a.app-btn.blu.flex.vert {
+    /* background-color: black; */
+    border: solid 1px blue;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 40%;
+    text-align: center;
+}
+a.btn.btn-primary.btn-floating.m-1 {
+    background: white;
+    color: black;
+    font-size: 15px;
+    border: none;
+}
+h6.text-uppercase.mb-4.font-weight-bold {
+    margin-bottom: 0;
+    font-size: 13px;
+    text-transform: lowercase;
+}
+.col-md-2.col-lg-2.col-xl-2.mx-auto.mt-3 {
+    margin-left: 20px!important;
+    
+}
+@media (min-width: 600px){
+    .col-md-2.col-lg-2.col-xl-2.mx-auto.mt-3 {
+        margin-left: 20px!important;
+        width: 14%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .flex.social-btns {
+    
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+}
+*{
+    text-align: center;
+}
+}
+
+
+
+/* My I div */
+
+
+button.btn.btn-light {
+    border: 1px solid blue;
+    color: blue;
+}
+
+
+
+/* My II div */
+    
+div#div-II {
+    background-color: #f2e7e7;
+    height: 400px;
+}
+.row.row-cols-auto {
+    justify-content: space-between;
+    margin: 30px;
+    height: 300px;
+}
+
+#piv{
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+p 
+/* .row-I {
+    margin: auto;
+    height: 100px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 30px;
+   
+    justify-items: stretch;
+    align-items: center;
+} */
+
+div#Huckbery {
+    display: flex;
+    align-items: center;
+    /* font-size: 30px; */
+}
+
+#Huckbery {
+    color: #a6a8ab;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.1px;
+font-size: 25px;}
+
+h2#Food52 {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Abel', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: serif;
+    /* font-style: italic; */
+    font-weight: 500;
+    font-size: 30px;
+}
+h2#The\ Sill {
+    font-size: 30px;
+    font-family: initial;
+    text-decoration: underline;
+    margin-left: -20px;    
+}
+h2#Burrow {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+h2#HappySocks {
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 100;
+    margin-left: -20px;
+}
+h2#DressUp {
+    font-size: 30px;
+    font-weight: 100;
+}
+.row-I { display: flex; justify-content:
+     space-evenly; align-items:
+      center; gap: 1px; }
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #bdb9c0;
+}
+
+
+div#III-div {
+    text-align: center;
+    
+    /* margin: 50px; */
+    font-size: 20px;
+    padding: 50px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 992px) {
+  
+.row-I {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3px;
+    justify-items: start;
+    align-items: center;
+    /* width: 100%; */
+    margin: 50px;
+    justify-content: center;
+}
+    
+
+h1.h1s{
+    font-size: 35px!important;
+    font-weight: 700;
+}
+  }
+
+  @media only screen and (max-width: 768px)
+   {
+    .col-sm-7 { flex: 0 0 auto;
+         width: 99.333333%;
+         text-align: center;
+         }
+        .col-md-2.col-lg-2.col-xl-2.mx-auto.mt-3 {
+             margin-left: 20px!important; width: 82%;
+             text-align: center;
+             }
+             #follow {
+                width: 100%;
+            }
+  }
+
+ 
+
+  
+
+   #hero {
+   
+    align-items: center;
+} 
+
+      div#div-iv {
+        text-align: center;
+        margin: 40px;
+    }
+    #CELEBRATE {
+        font-size: 1rem;
+        color: blue;
+    }
+
+    #herostr{
+        width: 500px;
+        display: flex;
+    }
+    
+    /* slider */
+
+    #col-1{
+        background-color: red;
+        height: 200px;
+    }
+    #col-2{
+        background-color: rgb(82, 91, 101);
+        height: 50px;
+    }
+    img#alt1 {
+        width: 80px;
+        height: 40px;
+        margin: auto;
+    }
+    img#alt2{
+        width: 110px;
+        height: 40px;
+       
+    }
+    img#alt3{
+        width: 150px;
+        height: 40px;
+       
+    }
+    #partner{
+text-align: center;
+    }
+
+    #last{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: blue;
+        height: 400px
+    }
