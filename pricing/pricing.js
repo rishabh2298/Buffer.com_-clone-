@@ -1,7 +1,7 @@
-import navbar from "../Buffer-h-n-p/components/navbar.js"
+import navbar from "../Buffer-Home-Page/components/navbar.js"
 document.getElementById('navbar').innerHTML = navbar()
 
-import footer from "../Buffer-h-n-p/components/footer.js"
+import footer from "../Buffer-Home-Page/components/footer.js"
 document.getElementById('footer').innerHTML = footer()
 
 
