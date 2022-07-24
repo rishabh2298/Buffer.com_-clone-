@@ -115,7 +115,7 @@ let login_code = (email,pass) => {
         if(this.check_id()){
           alert("Logged in Successfully ! ! !")
           localStorage.setItem("userID",JSON.stringify(this))
-          // window.location.href = "index.html"
+          window.location.href = "../Buffer-Home-Page/index.html"
           return;
         }
         else{
